@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        background-image: url('https://i.pinimg.com/originals/d9/34/a9/d934a9e685e877118e42ef016fa429d4.jpg'); /* Background image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .social-links {
+        margin-bottom: 20px;
+    }
+    .social-links a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .social-links img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .name {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    /* Animation for the live background */
+    @keyframes liveBackground {
+        0% { background-color: #ff0000; }
+        25% { background-color: #00ff00; }
+        50% { background-color: #0000ff; }
+        75% { background-color: #ffff00; }
+        100% { background-color: #ff00ff; }
+    }
+    body {
+        animation: liveBackground 10s infinite;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://i.postimg.cc/MpwSKX6S/image.jpg" alt="Profile Picture" class="profile-pic">
+    <div class="name">BRUCE WAYNE</div>
+    <div class="social-links">
+        <a href="https://discord.com/invite/GVbCnwMW"><img src="https://i.postimg.cc/bNWZ6x9R/images.png" alt="Discord"></a>
+        <!-- Replace "your_discord_link" with your actual Discord link -->
+        <a href="https://github.com/Brucewayne34"><img src="https://static-00.iconduck.com/assets.00/github-icon-2048x2048-eyd5tyuo.png" alt="GitHub"></a>
+        <!-- Replace "your_github_link" with your actual GitHub link -->
+        <a href="https://www.instagram.com/ali_kh.a.n/"><img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338392_960_720.png" alt="Instagram"></a>
+        <!-- Replace "your_instagram_link" with your actual Instagram link -->
+    </div>
+    <div class="introduction">
+        <p>Hey, my name is Ali AKA Bruce Wayne. I am a Python programmer. I have written hundreds of codes for Discord and applications that work very well.</p>
+    </div>
+</div>
+
+</body>
+</html>
